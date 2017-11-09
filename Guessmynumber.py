@@ -29,10 +29,10 @@ def guessnumber(g,name):
         numberguessed = int(input())
         if num < numberguessed:
             print("Your Guess is to high Please enter a new guess")
-            g = g + 1
+            
         elif num > numberguessed:
             print("Your Guess is to low Please enter a new guess")
-            g = g + 1
+            
         else:
             break
     if num == numberguessed:
